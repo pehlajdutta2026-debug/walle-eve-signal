@@ -1,0 +1,51 @@
+{
+    "mission_name": "WALL-E and EVE's Signal",
+    "grid_size": [
+        5,
+        5
+    ],
+    "start_position": [
+        0,
+        0
+    ],
+    "initial_battery": 100,
+    "max_battery": 100,
+    "battery_per_move": 5,
+    "scan_battery_cost": 8,
+    "recharge_amount": 30,
+    "time_limit": 40,
+    "hidden_eve_position": [
+        4,
+        4
+    ],
+    "signal_clues": [
+        {
+            "position": [
+                1,
+                1
+            ],
+            "strength": 0.2
+        },
+        {
+            "position": [
+                2,
+                2
+            ],
+            "strength": 0.4
+        },
+        {
+            "position": [
+                3,
+                3
+            ],
+            "strength": 0.7
+        },
+        {
+            "position": [
+                4,
+                4
+            ],
+            "strength": 1.0
+        }
+    ]
+}

@@ -1,0 +1,265 @@
+{
+    "mission_name": "WALL-E and EVE's Signal",
+    "actions": [
+        {
+            "time": 1,
+            "position": [
+                0,
+                0
+            ],
+            "action": "scan",
+            "battery": 92,
+            "details": {
+                "position": [
+                    0,
+                    0
+                ],
+                "signal_strength": 0.0,
+                "signal_detected": false,
+                "distance_band": "far",
+                "time_elapsed": 1,
+                "battery": 92
+            }
+        },
+        {
+            "time": 2,
+            "position": [
+                0,
+                0
+            ],
+            "action": "scan",
+            "battery": 84,
+            "details": {
+                "position": [
+                    0,
+                    0
+                ],
+                "signal_strength": 0.0,
+                "signal_detected": false,
+                "distance_band": "far",
+                "time_elapsed": 2,
+                "battery": 84
+            }
+        },
+        {
+            "time": 3,
+            "position": [
+                1,
+                0
+            ],
+            "action": "move",
+            "battery": 79,
+            "details": "down"
+        },
+        {
+            "time": 4,
+            "position": [
+                1,
+                1
+            ],
+            "action": "move",
+            "battery": 74,
+            "details": "right"
+        },
+        {
+            "time": 5,
+            "position": [
+                1,
+                1
+            ],
+            "action": "scan",
+            "battery": 66,
+            "details": {
+                "position": [
+                    1,
+                    1
+                ],
+                "signal_strength": 0.2,
+                "signal_detected": true,
+                "distance_band": "far",
+                "time_elapsed": 5,
+                "battery": 66
+            }
+        },
+        {
+            "time": 6,
+            "position": [
+                2,
+                1
+            ],
+            "action": "move",
+            "battery": 61,
+            "details": "down"
+        },
+        {
+            "time": 7,
+            "position": [
+                2,
+                2
+            ],
+            "action": "move",
+            "battery": 56,
+            "details": "right"
+        },
+        {
+            "time": 8,
+            "position": [
+                2,
+                2
+            ],
+            "action": "scan",
+            "battery": 48,
+            "details": {
+                "position": [
+                    2,
+                    2
+                ],
+                "signal_strength": 0.4,
+                "signal_detected": true,
+                "distance_band": "medium",
+                "time_elapsed": 8,
+                "battery": 48
+            }
+        },
+        {
+            "time": 9,
+            "position": [
+                3,
+                2
+            ],
+            "action": "move",
+            "battery": 43,
+            "details": "down"
+        },
+        {
+            "time": 10,
+            "position": [
+                3,
+                3
+            ],
+            "action": "move",
+            "battery": 38,
+            "details": "right"
+        },
+        {
+            "time": 11,
+            "position": [
+                3,
+                3
+            ],
+            "action": "scan",
+            "battery": 30,
+            "details": {
+                "position": [
+                    3,
+                    3
+                ],
+                "signal_strength": 0.7,
+                "signal_detected": true,
+                "distance_band": "medium",
+                "time_elapsed": 11,
+                "battery": 30
+            }
+        },
+        {
+            "time": 12,
+            "position": [
+                4,
+                3
+            ],
+            "action": "move",
+            "battery": 25,
+            "details": "down"
+        },
+        {
+            "time": 13,
+            "position": [
+                4,
+                4
+            ],
+            "action": "move",
+            "battery": 20,
+            "details": "right"
+        }
+    ],
+    "reasoning": [
+        {
+            "time": 0,
+            "position": [
+                0,
+                0
+            ],
+            "signal_strength": 0.0,
+            "best_signal": 0.0,
+            "estimated_eve_position": [
+                0,
+                0
+            ]
+        },
+        {
+            "time": 1,
+            "position": [
+                0,
+                0
+            ],
+            "signal_strength": 0.0,
+            "best_signal": 0.0,
+            "estimated_eve_position": [
+                0,
+                0
+            ]
+        },
+        {
+            "time": 2,
+            "position": [
+                0,
+                0
+            ],
+            "signal_strength": 0.0,
+            "best_signal": 0.0,
+            "estimated_eve_position": [
+                0,
+                0
+            ]
+        },
+        {
+            "time": 5,
+            "position": [
+                1,
+                1
+            ],
+            "signal_strength": 0.2,
+            "best_signal": 0.2,
+            "estimated_eve_position": [
+                1,
+                1
+            ]
+        },
+        {
+            "time": 8,
+            "position": [
+                2,
+                2
+            ],
+            "signal_strength": 0.4,
+            "best_signal": 0.4,
+            "estimated_eve_position": [
+                2,
+                2
+            ]
+        },
+        {
+            "time": 11,
+            "position": [
+                3,
+                3
+            ],
+            "signal_strength": 0.7,
+            "best_signal": 0.7,
+            "estimated_eve_position": [
+                3,
+                3
+            ]
+        }
+    ]
+}
